@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D playerRb;
     public float moveSpeed = 1500f;
+    public GameObject spongebob;
+
     // Start is called before the first frame update
 
     private void Awake() 
@@ -28,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.LogWarning("No Rigidbody on the Player" + gameObject.name);
         }
+
+        
     }
 
     public void ApplyInput()
@@ -42,6 +46,15 @@ public class PlayerMovement : MonoBehaviour
         playerRb.AddForce(force);
 
         Debug.Log("xForce = " +  xForce);
+
+       if(xForce >= 0.0f) 
+        {
+            spongebob.transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        else
+        {
+            spongebob.transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
     }
     
 }

@@ -479,6 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1500
+  spongebob: {fileID: 1233098916}
 --- !u!50 &1233098920
 Rigidbody2D:
   serializedVersion: 4
