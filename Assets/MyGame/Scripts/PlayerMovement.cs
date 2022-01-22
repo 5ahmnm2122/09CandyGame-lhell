@@ -45,8 +45,6 @@ public class PlayerMovement : MonoBehaviour
 
         playerRb.AddForce(force);
 
-        Debug.Log("xForce = " +  xForce);
-
        if(xForce >= 0.0f) 
         {
             spongebob.transform.rotation = Quaternion.Euler(0, 0, 0);

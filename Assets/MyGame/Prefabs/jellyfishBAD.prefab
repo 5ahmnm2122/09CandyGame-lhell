@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7330202433007001063}
   - component: {fileID: 8273834936817022278}
   - component: {fileID: 2541605702284287455}
+  - component: {fileID: 6129256660808417770}
   m_Layer: 0
   m_Name: jellyfishBAD
   m_TagString: Untagged
@@ -104,7 +105,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!58 &2541605702284287455
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -121,3 +122,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.20353171}
   serializedVersion: 2
   m_Radius: 3.6669261
+--- !u!114 &6129256660808417770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289606129095306197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0141a5150251f3743894c59e0dd8273c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  burgerPrefab: {fileID: 0}
+  jellyfishPrefab: {fileID: 0}
+  spawnTime: 0
+  countdown: 0

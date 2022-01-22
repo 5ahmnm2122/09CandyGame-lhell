@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -37,7 +38,7 @@ public class ItemManager : MonoBehaviour
     {
         countdown += Time.deltaTime;
 
-        if(countdown >= 5)
+        if(countdown >= 3)
         {
             float randomChance = Random.Range(0.0f, 1.0f);
             if(randomChance < 0.5f)
@@ -57,16 +58,18 @@ public class ItemManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-
+    Vector2 GetSpawnPoint()
+        {
+            float x = Random.Range (-7, 7);
+            return new Vector2(x, 8);
+        } 
     void DropBurger()
     {
-        Vector2 positionItem = new Vector2(Random.Range(-7, 7), 7);
-        Instantiate(burgerPrefab, burgerPrefab.transform);
+        Instantiate(burgerPrefab, GetSpawnPoint(), Quaternion.identity);
     }
 
     void DropJellyfish()
     {
-        Vector2 positionItem = new Vector2(Random.Range(-7, 7), 7);
-        Instantiate(jellyfishPrefab, jellyfishPrefab.transform);
+        Instantiate(jellyfishPrefab, GetSpawnPoint(), Quaternion.identity);
     }
 }

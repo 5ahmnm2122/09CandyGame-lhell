@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 606900652619834329}
   - component: {fileID: 4782369758349840490}
   - component: {fileID: 5781078546150374522}
-  - component: {fileID: 4421683109653475855}
+  - component: {fileID: 7834353962826656952}
   m_Layer: 0
   m_Name: burgerGOOD
   m_TagString: Untagged
@@ -105,7 +105,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!58 &5781078546150374522
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ CircleCollider2D:
   m_Offset: {x: 0.030887725, y: 0}
   serializedVersion: 2
   m_Radius: 1.9956218
---- !u!114 &4421683109653475855
+--- !u!114 &7834353962826656952
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
