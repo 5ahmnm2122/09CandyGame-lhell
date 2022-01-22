@@ -14,20 +14,13 @@ public class ItemManager : MonoBehaviour
     private float spawnTime;
     public float countdown = 0;
 
-    public Text scoreText;
-    public Text highscoreText;
-
-    int score = 0;
-    int highscore = 0;
+    
     // Start is called before the first frame update
     void Start()
     {
         i = Random.Range(1, 10);
-        scoreText.text = score.ToString() + " Points";
-        highscoreText.text = "Highscore: " + highscore.ToString();
 
         StartSpawn();
-
     }
 
     void StartSpawn()
@@ -46,7 +39,7 @@ public class ItemManager : MonoBehaviour
     {
         countdown += Time.deltaTime;
 
-        if(countdown >= 3)
+        if(countdown >= 2)
         {
             float randomChance = Random.Range(0.0f, 1.0f);
             if(randomChance < 0.5f)
@@ -80,4 +73,6 @@ public class ItemManager : MonoBehaviour
     {
         Instantiate(jellyfishPrefab, GetSpawnPoint(), Quaternion.identity);
     }
+
+
 }
