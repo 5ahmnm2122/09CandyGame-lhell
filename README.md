@@ -25,6 +25,11 @@ Third party material:
 Project state:
     90% (finished but could use some extras)
 
+Screenshots:
+    ![](Assets/Screenshots/StartScreen)
+    ![](Assets/Screenshots/GameScreen)
+    ![](Assets/Screenshots/EndScreen)
+
 Lessons learned:
     - PlayerPrefs and how to use them
     - 2D Game Mechanics (Moving, Items)
