@@ -303,6 +303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1272377648}
   highscoreText: {fileID: 0}
+  resultText: {fileID: 0}
 --- !u!4 &592790511
 Transform:
   m_ObjectHideFlags: 0
@@ -587,6 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1272377648}
   highscoreText: {fileID: 0}
+  resultText: {fileID: 0}
 --- !u!1 &1272377646
 GameObject:
   m_ObjectHideFlags: 0

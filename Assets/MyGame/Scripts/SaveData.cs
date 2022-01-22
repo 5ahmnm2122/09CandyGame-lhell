@@ -8,6 +8,7 @@ public class SaveData : MonoBehaviour
 {   
     public InputField nameBox;
     public Text nameText;
+    public Text pointsText;
     // Start is called before the first frame update
 
     public void ClickStartButton()
@@ -19,6 +20,7 @@ public class SaveData : MonoBehaviour
     void Start()
     {
         nameText.text = PlayerPrefs.GetString("playername");
+        pointsText.text = "Points: " + PlayerPrefs.GetInt("points");
     }
 
     public void ResetSavedGame()
