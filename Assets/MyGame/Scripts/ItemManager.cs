@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Random=UnityEngine.Random;
 
 public class ItemManager : MonoBehaviour
@@ -10,16 +11,23 @@ public class ItemManager : MonoBehaviour
     public GameObject burgerPrefab;
     public GameObject jellyfishPrefab;
     private int i;
-    public float spawnTime;
+    private float spawnTime;
     public float countdown = 0;
 
+    public Text scoreText;
+    public Text highscoreText;
 
+    int score = 0;
+    int highscore = 0;
     // Start is called before the first frame update
     void Start()
     {
         i = Random.Range(1, 10);
+        scoreText.text = score.ToString() + " Points";
+        highscoreText.text = "Highscore: " + highscore.ToString();
 
         StartSpawn();
+
     }
 
     void StartSpawn()
