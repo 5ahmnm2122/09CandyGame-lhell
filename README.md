@@ -23,7 +23,7 @@ Third party material:
     /
 
 Project state:
-    90% (finished but could use some extras)
+    99% (finished but could use some extras)
 
 Screenshots:
     ![](Assets/Screenshots/StartScreen)
