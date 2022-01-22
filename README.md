@@ -26,9 +26,9 @@ Project state:
     99% (finished but could use some extras)
 
 Screenshots:
-    ![](Assets/Screenshots/StartScreen)
-    ![](Assets/Screenshots/GameScreen)
-    ![](Assets/Screenshots/EndScreen)
+   <img src="Assets/Screenshots/StartScreen">
+   <img src="Assets/Screenshots/GameScreen">
+   <img src="Assets/Screenshots/EndScreen">
 
 Lessons learned:
     - PlayerPrefs and how to use them
