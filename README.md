@@ -35,9 +35,9 @@ Project state:
 
 Screenshots:
 
-   <img src="Assets/Screenshots/StartScreen">
-   <img src="Assets/Screenshots/GameScreen">
-   <img src="Assets/Screenshots/EndScreen">
+   <img src="Assets/Screenshots/StartScreen.PNG" height=300px>
+   <img src="Assets/Screenshots/GameScreen.PNG" height=300px>
+   <img src="Assets/Screenshots/EndScreen.PNG" height=300px>
 
 Lessons learned:
     - PlayerPrefs and how to use them
