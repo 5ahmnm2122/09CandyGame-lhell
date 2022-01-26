@@ -3,16 +3,23 @@
 Project description:
     A 2D Game, where you have to catch falling Burgers and avoid jellyfish. The Goal is to catch 3 or more Burgers. Jellyfish substract from the score.
 
+
 Link: 
 https://5ahmnm2122.github.io/09CandyGame-lhell/
+
+.
 
 Developement platform:
     Windows 10,
     Unity 2020.3.18f1
     Visual Studio Code
 
+.
+
 Target platform:
     WebGL
+
+.
 
 Visuals:
 
@@ -26,12 +33,17 @@ Visuals:
     
     Jellyfish: https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Fjellyfish-spongebob-cartoon-pink-6267169%2F&psig=AOvVaw0ZwgXRKrcOQbwamtLtnA9m&ust=1642960973897000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKDhrtz4xfUCFQAAAAAdAAAAABAD
 
+.
 
 Third party material:
     /
 
+.
+
 Project state:
     99% (finished but could use some extras)
+
+.
 
 Screenshots:
 
@@ -39,9 +51,13 @@ Screenshots:
    <img src="Assets/Screenshots/GameScreen.PNG" height=300px>
    <img src="Assets/Screenshots/EndScreen.PNG" height=300px>
 
+.
+
 Lessons learned:
     - PlayerPrefs and how to use them
     - 2D Game Mechanics (Moving, Items)
     - Spawning Prefabs
+
+.
 
 Copyright by HellLisa
