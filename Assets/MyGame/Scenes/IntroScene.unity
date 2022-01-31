@@ -326,6 +326,7 @@ MonoBehaviour:
   nameBox: {fileID: 1175797820}
   nameText: {fileID: 0}
   pointsText: {fileID: 0}
+  continueButton: {fileID: 1603074898}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

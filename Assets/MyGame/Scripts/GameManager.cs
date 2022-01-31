@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {   
     public Text scoreText;
-    public Text highscoreText;
-    public Text resultText;
+    // public Text resultText;
 
     private GameObject good;
     private GameObject bad;
@@ -40,7 +39,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Update()
+   /* void Update()
     {   
         Debug.Log("Your score is " + PlayerPrefs.GetInt("points"));
 
@@ -52,5 +51,5 @@ public class GameManager : MonoBehaviour
         {
             resultText.text = "You lost!";
         }
-    }
+    } */
 }

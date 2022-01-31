@@ -288,7 +288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &592790510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,8 +302,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1272377648}
-  highscoreText: {fileID: 0}
-  resultText: {fileID: 0}
 --- !u!4 &592790511
 Transform:
   m_ObjectHideFlags: 0
@@ -525,7 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06545698132cc4410a1d74151123c2eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3000
+  moveSpeed: 10000
   spongebob: {fileID: 1233098916}
 --- !u!50 &1233098920
 Rigidbody2D:
@@ -581,14 +579,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233098916}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07d6aa711bde7fa4da3c11911494f2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1272377648}
-  highscoreText: {fileID: 0}
-  resultText: {fileID: 0}
 --- !u!1 &1272377646
 GameObject:
   m_ObjectHideFlags: 0
