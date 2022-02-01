@@ -15,7 +15,7 @@ public class Result : MonoBehaviour
     void Start ()
     {
         nameText.text = PlayerPrefs.GetString("playername");
-        pointText.text = PlayerPrefs.GetInt("points").ToString();
+        pointText.text = "Your points: " + PlayerPrefs.GetInt("points").ToString();
     }
     void Update()
     {   
