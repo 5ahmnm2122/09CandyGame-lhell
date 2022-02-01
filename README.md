@@ -17,7 +17,7 @@ Developement platform:
 .
 
 Target platform:
-    WebGL
+    WebGL (960 x 600)
 
 .
 
